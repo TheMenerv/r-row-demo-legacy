@@ -1,0 +1,29 @@
+{
+  "log_level": "debug",
+  "server": {
+    "url": "http://localhost:3000",
+    "timeout": 5000
+  },
+  "canvas": {
+    "width": 720,
+    "height": 560,
+    "fullScreen": true,
+    "node": "body",
+    "antiAliasing": false
+  },
+  "game": {
+    "globalScale": 3,
+    "heroLife": 100,
+    "heroSpeed": 5,
+    "heroDamage": 5,
+    "heroAttackRange": 9,
+    "orcLife": 20,
+    "orcSpeed": 2,
+    "orcChaseSpeed": 4.5,
+    "orcDamage": 3,
+    "orcAttackRange": 9,
+    "orcChaseRange": 40,
+    "orcTimerNextAttack": 0.8,
+    "orcSpawnTimer": 30
+  }
+}
