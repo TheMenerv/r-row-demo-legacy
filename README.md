@@ -2,6 +2,8 @@
 
 This project is a demo for the [R-ROW TypeScript 2D Game Engine](https://github.com/TheMenerv/r-row).
 
+You can test this game on [itch.io page](https://menerv.itch.io/r-row-demo).
+
 ---
 
 ## Assets
