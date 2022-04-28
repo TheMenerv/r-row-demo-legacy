@@ -81,5 +81,5 @@ export const main = async () => {
   addStage('game', GameStage.getStage());
 
   // Set the menu stage
-  switchStage('menu', 100);
+  switchStage('menu');
 };
