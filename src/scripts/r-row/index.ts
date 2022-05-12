@@ -48,7 +48,15 @@ export * from './types';
 
 export { getStore, loadAssets } from './store';
 
-export { getMouse, mouseRecCollision, setCursor, getKeyboard } from './devices';
+export {
+  getMouse,
+  mouseRecCollide,
+  setCursor,
+  getKeyboard,
+  getTouch,
+  isTouchScreen,
+  touchRecCollide,
+} from './devices';
 
 export {
   getClickable,
@@ -71,6 +79,19 @@ export {
 
 export { random, randomRange } from './random';
 
-export { drawRoundedRect } from './primitives';
+export {
+  drawRoundedRect,
+  drawLinePoint,
+  drawLineVector,
+  drawCirclePoint,
+  drawCircleVector,
+} from './primitives';
 
 export { setServerURL, getSocket, isServerConnected } from './network';
+
+export {
+  normalizeVector2,
+  distancePoint,
+  distanceVector2,
+  radian,
+} from './math';

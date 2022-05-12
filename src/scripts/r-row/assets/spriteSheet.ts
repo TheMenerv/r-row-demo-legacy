@@ -1,5 +1,5 @@
-import { getStore } from '../store';
-import { SpriteSheet, Animation } from '../types';
+import { getStore } from "../store";
+import { SpriteSheet, Animation } from "../types";
 
 export const createSpriteSheet = (
   image: string,

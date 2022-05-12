@@ -1,4 +1,4 @@
-import { Asset, Store } from '../types';
+import { Asset, Store } from "../types";
 
 let store: Store = null;
 let loadedAsset: number = null;
