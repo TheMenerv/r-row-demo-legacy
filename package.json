@@ -1,6 +1,6 @@
 {
   "name": "r-row-demo",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Demo for R-ROW, the TypeScript 2D Game Engine",
   "main": "index.html",
   "scripts": {

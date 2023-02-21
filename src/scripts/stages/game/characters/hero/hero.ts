@@ -60,7 +60,6 @@ const updateStateMachine = (dt: number, orcs: Character[]) => {
   if (state === State.die) {
     // ending die
     if (animationName.includes('die') && animationFinished) {
-      console.log(score);
       switchStage('menu', score);
       return;
     }
